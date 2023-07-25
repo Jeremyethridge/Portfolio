@@ -1,4 +1,3 @@
-
 # Portfolio 
 This is the README file for the HTML code of a portfolio website. The website showcases information about the me, my work, and provides contact details.
 
@@ -21,8 +20,12 @@ Open the index.html file in a web browser.
 Explore the different sections of the portfolio website using the navigation links.
 Feel free to modify the content, styles, and images to personalize the portfolio according to your needs.
 
+## Screenshot of Deployed Application
+![Portfolio](https://github.com/Jeremyethridge/Portfolio/assets/128623643/bc8d4d95-a61a-49c4-aae4-0c5a3c2179cb)
+
 ## Contact
 If you have any questions or suggestions regarding this code or the portfolio website, please feel free to contact me:
+
 
 Email: Jeremyethridge6@yahoo.com
 
