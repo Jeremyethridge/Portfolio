@@ -126,6 +126,7 @@ h4{
     align-items: center;
     min-height: 400px;
 }
+
 .text{
     height: 500px;
     width: 400px;
@@ -135,17 +136,13 @@ h4{
     margin: 15px;
     position: relative;
     overflow: hidden;
+    font-size: 40px;
 }
 .text:hover{
     transform: scale(1.1);
 }
-h5{
-    color: red;
-    font-size: 30px;
-    margin: 15px;
-}
 .paragraph p{
-    color: green;
+    color: black;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -181,4 +178,9 @@ h5{
     width: 1130px;
     margin: 30px auto;
     text-align: center;
+}
+.movie-barf img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
