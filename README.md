@@ -22,11 +22,3 @@ Feel free to modify the content, styles, and images to personalize the portfolio
 
 ## Screenshot of Deployed Application
 ![Portfolio](https://github.com/Jeremyethridge/Portfolio/assets/128623643/bc8d4d95-a61a-49c4-aae4-0c5a3c2179cb)
-
-## Contact
-If you have any questions or suggestions regarding this code or the portfolio website, please feel free to contact me:
-
-
-Email: Jeremyethridge6@yahoo.com
-
-LinkedIn: https://www.linkedin.com/in/jeremy-ethridge-9a888727a/
