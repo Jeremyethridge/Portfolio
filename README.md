@@ -1,17 +1,10 @@
 # Portfolio 
-This is the README file for the HTML code of a portfolio website. The website showcases information about the me, my work, and provides contact details.
-
-## Table of Contents
-Description
-Usage
-Contact
-Description
-This code represents a simple portfolio website written in HTML. It consists of several sections that provide information about the author and their work.
+## Description
+This code represents a simple portfolio website written in HTML. It consists of several sections that provide information about me.
 
 The Navbar section contains navigation links to different parts of the website, including "About," "Work," and "Contact" sections.
-The About Me section provides a brief description of the author and their interests.
+The About Me section provides a brief description of me and my interests.
 The My Work section displays a list of projects with a link to my Github.
-The Contact Me section provides the author's email and LinkedIn profile link.
 ## Usage
 To use this code, follow the steps below:
 
