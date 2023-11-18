@@ -22,7 +22,7 @@ export const ProjectList = [
   {
     name: "Movie Barf",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "CSS, 3rd-Party Movie API, JavaScript ",
   },
   {
     name: "Scheduler",
