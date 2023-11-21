@@ -1,80 +1,74 @@
-import React, { useState } from 'react';
-import '../styles/Contact.css';
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import "../styles/Contact.css";
+
 const Contact = () => {
+  const form = useRef();
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    user_name: "",
+    user_email: "",
+    message: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_fivimca",
+        "template_y70phqk",
+        form.current,
+        "E169w6V4kxhKQYZi4"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+          setFormData({
+            user_name: "",
+            user_email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Error sending message. Please try again.");
+        }
+      );
   };
 
-  const handleSubmit = () => {
-    // Setup for future to receive emails
-    console.log('Form submitted:', formData);
+    const handleInputChange = (e) => {
+      setFormData({...formData, [e.target.name]: e.target.value });
+    }
 
-    
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
-    });
+    return (
+      <form className="contact-container" ref={form} onSubmit={sendEmail}>
+        <label className="form-label">Name</label>
+        <input
+          className="form-input"
+          type="text"
+          name="user_name"
+          value={formData.user_name}
+          onChange={handleInputChange}
+        />
+        <label className="form-label">Email</label>
+        <input
+          className="form-input"
+          type="email"
+          name="user_email"
+          value={formData.user_email}
+          onChange={handleInputChange}
+        />
+        <label className="form-label">Message</label>
+        <textarea
+          className="form-input"
+          name="message"
+          value={formData.message}
+          onChange={handleInputChange}
+        />
+        <input className="submit-button" type="submit" value="Send" />
+      </form>
+    );
   };
-
-  return (
-    <div className="contact-container">
-      <label className="form-label">Name:</label>
-      <input
-        type="text"
-        name="name"
-        value={formData.name}
-        onChange={handleChange}
-        placeholder="Enter your name"
-        className="form-input"
-      />
-
-      <label className="form-label">Email:</label>
-      <input
-        type="email"
-        name="email"
-        value={formData.email}
-        onChange={handleChange}
-        placeholder="Enter your email"
-        className="form-input"
-      />
-
-      <label className="form-label">Subject:</label>
-      <input
-        type="text"
-        name="subject"
-        value={formData.subject}
-        onChange={handleChange}
-        placeholder="Enter the subject"
-        className="form-input"
-      />
-
-      <label className="form-label">Message:</label>
-      <textarea
-        name="message"
-        value={formData.message}
-        onChange={handleChange}
-        placeholder="Type your message"
-        className="form-input"
-      />
-
-      <button type="button" onClick={handleSubmit} className="submit-button">
-        Submit
-      </button>
-    </div>
-  );
-};
 
 export default Contact;
