@@ -15,6 +15,14 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
+      <p>
+        <b>
+          Deployed Application:{" "}
+          <a href={project.link} target="_blank" rel="noopener noreferrer">
+            {project.name}
+          </a>
+        </b>
+      </p>
     </div>
   );
 }
