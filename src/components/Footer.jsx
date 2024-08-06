@@ -5,7 +5,7 @@ import "../styles/Footer.css";
 
 function Footer() {
   const githubUrl = "https://github.com/Jeremyethridge";
-  const linkedinUrl = "https://www.linkedin.com/in/jeremy-ethridge-9a888727a/";
+  const linkedinUrl = "https://www.linkedin.com/in/jeremylethridge/";
 
   return (
     <div className="footer">
