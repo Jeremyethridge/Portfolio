@@ -1,9 +1,8 @@
-// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helper/ProjectList";
 
-import "../styles/ProjectDisplay.css";
+import "../styles/projectdisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
