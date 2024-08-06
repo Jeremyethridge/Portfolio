@@ -16,13 +16,13 @@ export const ProjectList = [
     name: "Hello Software",
     image: Proj2,
     skills: "MongoDB, ExpressJS, ReactJS, NodeJS",
-    link: "https://hello-software-37812ef8ef64.herokuapp.com/",
+    link: "https://hellosoftware.netlify.app/",
   },
   {
     name: "Lord of the Rings",
     image: Proj3,
     skills: "React, The-One-API, CSS",
-    link: "https://jeremyethridgelotr.netlify.app/",
+    link: "https://jeremy-lotr.netlify.app/",
   },
   {
     name: "Weather Dashboard",
