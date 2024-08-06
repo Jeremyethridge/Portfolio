@@ -5,7 +5,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ProjectDisplay from "./pages/ProjectDisplay";
+import ProjectDisplay from "./pages/projectdisplay";
 
 function App() {
   return (
