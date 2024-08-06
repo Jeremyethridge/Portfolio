@@ -10,7 +10,8 @@ function Projects() {
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
-            <ProjectItem key={idx} name={project.name} image={project.image} />
+            // eslint-disable-next-line react/jsx-key
+            <ProjectItem id ={idx} name={project.name} image={project.image} />
           );
         })}
       </div>
