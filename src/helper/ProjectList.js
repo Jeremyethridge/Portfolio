@@ -2,6 +2,8 @@ import Proj1 from "../projects/Project1.png";
 import Proj2 from "../projects/Project2.png";
 import Proj3 from "../projects/Project3.png";
 import Proj4 from "../projects/Project4.png";
+import Proj5 from "../projects/Project5.png";
+import Proj6 from "../projects/Project6.png";
 
 export const ProjectList = [
   {
@@ -28,4 +30,16 @@ export const ProjectList = [
     skills: "JavaScript, WeatherAPI, CSS",
     link: "https://jeremyethridge.github.io/Weather-Dashboard/",
   },
+  {
+    name: "Quiz",
+    image: Proj5,
+    skills: "JavaScript, HTML, CSS",
+    link: "https://jeremyethridge.github.io/Quiz/"
+  },
+  {
+    name: "Note Application",
+    image: Proj6,
+    skills: "Express, Bootstrap, JavaScript",
+    link: "https://express-node-application.netlify.app/"
+  }
 ]
