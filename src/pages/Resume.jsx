@@ -56,7 +56,7 @@ function Resume() {
         </div>
       </li>
     </ol>
-    <a className = "resume"href="https://drive.google.com/file/d/1XDJhQHQSC0cw5YTF8nmCEwG3Q26W6n3G/view?usp=drive_link">Click To View Resume!</a>
+    <a className = "resume"href="https://drive.google.com/file/d/1CWLrCgqSfDChB-BR220SOXIfD-SDlTW_/view?usp=sharing">Click To View Resume!</a>
   </div>
   )
 }
