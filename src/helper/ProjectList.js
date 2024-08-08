@@ -40,6 +40,6 @@ export const ProjectList = [
     name: "Note Application",
     image: Proj6,
     skills: "Express, Bootstrap, JavaScript",
-    link: "https://express-node-application.netlify.app/"
+    link: "https://note-taker-express-bzs2.onrender.com/"
   }
 ]
